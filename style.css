@@ -1,105 +1,150 @@
 /* ./assets/images */
-*,::after,::before{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*,
+::after,
+::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-html{
-    font-size: 62.5%;
-}
-
-body{
-min-height: 100vh;
-background-image: url(./assets/images/login-background.jpg);
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-background-attachment: fixed;
-font-family: sans-serif;
+html {
+	font-size: 62.5%;
 }
 
-.nav{
-    display: flex;
-    background-color: #090b13;
-    padding: 1rem 4rem;
-    justify-content: space-between;
-    align-items: center;
+.indexPage {
+	min-height: 100vh;
+	background-image: url(./assets/images/login-background.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: sans-serif;
 }
-.logo{
-    width: 8rem;
-    height: auto;
+
+.nav {
+	display: flex;
+	background-color: #090b13;
+	padding: 1rem 4rem;
+	justify-content: space-between;
+	align-items: center;
 }
-.login__btn{
-    padding: 1rem 1.5rem;
-    background: none;
-    font-size: 1.5rem;
-    border: 0.1em solid #f9f9f9;
-    color: #f9f9f9;
-    border-radius: 0.2em;
-    letter-spacing: 0.2em;
-    cursor:pointer;
+.logo {
+	width: 8rem;
+	height: auto;
+}
+.login__btn {
+	padding: 1rem 1.5rem;
+	background: none;
+	font-size: 1.5rem;
+	border: 0.1em solid #f9f9f9;
+	color: #f9f9f9;
+	border-radius: 0.2em;
+	letter-spacing: 0.2em;
+	cursor: pointer;
 }
 
 /* Main */
 
-.main{
-    position: absolute;
-    top:50%;left:50%;
-    transform: translate(-50%,-50%);
-    color:#f9f9f9;
-    letter-spacing: 0.1rem;
-    width: 64rem;
+.main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #f9f9f9;
+	letter-spacing: 0.1rem;
+	width: 64rem;
 }
-.logo__container--top{
-    width: 100%;
-    height: 14rem;
-    background-image: url(./assets/images/cta-logo-one.svg );
-    background-size: contain;
-background-position: center;
-background-repeat: no-repeat;
+.logo__container--top {
+	width: 100%;
+	height: 14rem;
+	background-image: url(./assets/images/cta-logo-one.svg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
-.main__cta{
-    width: 100%;
-    height: 5rem;
-    font-size: 1.5rem;
-    border-radius: 0.2em;
-    background-color: #0063e5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    margin: 1rem 0rem;
+.main__cta {
+	width: 100%;
+	height: 5rem;
+	font-size: 1.5rem;
+	border-radius: 0.2em;
+	background-color: #0063e5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	margin: 1rem 0rem;
 }
-.main__cta--a{
-    color: #f9f9f9;
-    text-decoration: none;
+.main__cta--a {
+	color: #f9f9f9;
+	text-decoration: none;
 }
 .main__text {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    text-align: center;
-    color:#f3f3f3;
+	font-size: 1.2rem;
+	line-height: 1.5;
+	text-align: center;
+	color: #f3f3f3;
 }
 
-.logo__container--bottom{
-width: 100%;
-height: 3rem;
-margin-top: 1.5rem;
-background-image: url(./assets/images/cta-logo-two.png);
-background-size: contain;
-background-position: center;
-background-repeat: no-repeat;
+.logo__container--bottom {
+	width: 100%;
+	height: 3rem;
+	margin-top: 1.5rem;
+	background-image: url(./assets/images/cta-logo-two.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
-@media screen and (max-width:800px){
-    .nav{
-        padding: 1rem;
-    }
-    .main{
-    width: 30rem;  
-    }
-    .main__cta{
-        margin-top: -1rem;
-    }
+@media screen and (max-width: 800px) {
+	.nav {
+		padding: 1rem;
+	}
+	.main {
+		width: 30rem;
+	}
+	.main__cta {
+		margin-top: -1rem;
+	}
+}
+/* ///////////////////////////////////////////// */
+/* MainPage */
+
+.mainPage {
+	background-color: hsla(228, 36%, 5%, 0.9);
+	width: 100%;
+	min-height: 100vh;
+}
+.carousel-container {
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.carousel-items {
+	display: flex;
+
+	margin-top: 2rem;
+	width: 100%;
+	transition: transform 300ms ease-in-out;
+}
+
+.carousel-items img {
+	margin: 0rem 0.2rem;
+	min-width: 90%;
+}
+.prevBtn,
+.nextBtn {
+	position: absolute;
+	color: white;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: clamp(2rem, 1.5vw, 4rem);
+	cursor: pointer;
+}
+
+.prevBtn {
+	left: 3%;
+}
+
+.nextBtn {
+	right: 3%;
 }
