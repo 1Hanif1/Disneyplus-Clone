@@ -11,7 +11,7 @@
 
 > Disney+ website clone. For now I have only created the landing page. I plan to build/add more
 
-### 🏠 [Homepage](https://github.com/1Hanif1/Disneyplus-Clone)
+### 🏠 [Homepage](https://1hanif1.github.io/Disneyplus-Clone/)
 
 ## Author
 
