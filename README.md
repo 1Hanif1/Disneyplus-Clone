@@ -1,25 +1,24 @@
-<h1 align="center">Welcome to Disney+ Clone 👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/1Hanif1/Disneyplus-Clone" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="https://twitter.com/MohaJS1" target="_blank">
-    <img alt="Twitter: MohaJS1" src="https://img.shields.io/twitter/follow/MohaJS1.svg?style=social" />
-  </a>
-</p>
+# ✨ Disney+ Clone 
+I made this project for an event organised at [code damn](https://codedamn.com/) on the ocasion of hacktober fest
 
-> Disney+ website clone. For now I have only created the landing page. I plan to build/add more
+# 📸 Screenshots
 
-### 🏠 [Homepage](https://1hanif1.github.io/Disneyplus-Clone/)
+![Title Screenshot](./title.png)
 
-## Author
+![Main Screenshot](./main.png)
 
-👤 **Hanif Barbhuiya**
+## ⚙️ Built with
+- Semantic HTML5 markup
+- CSS Grid
+- Javascript
 
-* Twitter: [@MohaJS1](https://twitter.com/MohaJS1)
-* Github: [@1Hanif1](https://github.com/1Hanif1)
+Building the carousel was the most fun part it was challenging but fun :)
 
-## Show your support
+Disney+ Clone ~ [Live Demo](https://1hanif1.github.io/Disneyplus-Clone/)
 
-Give a ⭐️ if this project helped you!
+## 👤 My Socials
+
+- Twitter - [@HMohammedB\_](https://twitter.com/HMohammedB_)
+- Github: [@1Hanif1](https://github.com/1Hanif1)
+
+Give a ⭐️ if you like my project :)
